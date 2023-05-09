@@ -105,7 +105,7 @@ let question4Buttons = document.querySelectorAll('.question4Button');
 
 function question4ClickEvent() {
     document.getElementById('questionDiv4').style.display = 'none';
-    document.getElementById('questionDiv5').style.display = 'block';
+    document.getElementById('scoreBox').style.display = 'block';
     console.log('here');
 }
 
@@ -115,3 +115,4 @@ question4Buttons.forEach(element => {
         question4ClickEvent();
     });
 });
+

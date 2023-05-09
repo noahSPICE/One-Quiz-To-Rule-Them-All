@@ -35,3 +35,12 @@ body {
     color: #FFC30F;
     text-shadow: 3px 3px 2px black;
 }
+
+#scoreBox {
+    text-align: center;
+    font-weight: lighter;
+    font-family: fantasy;
+    color: #FFC30F;
+    text-shadow: 3px 3px 2px black;
+}
+
