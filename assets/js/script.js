@@ -115,4 +115,3 @@ question4Buttons.forEach(element => {
         question4ClickEvent();
     });
 });
-
