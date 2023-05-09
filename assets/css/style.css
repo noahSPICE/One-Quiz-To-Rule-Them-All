@@ -1,0 +1,37 @@
+.Quiz-Title {
+    text-align:center;
+    font-family: fantasy;
+    color: #FFC30F;
+    text-shadow: 3px 3px 2px black;
+}
+
+.Quiz-Subtitle {
+    text-align: center;
+    font-weight: lighter;
+    font-family: fantasy;
+    color: #FFC30F;
+    text-shadow: 3px 3px 2px black;
+}
+
+.questionDiv {
+    text-align: center;
+    font-family: fantasy;
+    color: #FFC30F;
+    text-shadow: 3px 3px 2px black;
+}
+
+body {
+    background-image: url("../images/Sauron.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.Start {
+    text-align: center;
+    font-weight: lighter;
+    font-family: fantasy;
+    color: #FFC30F;
+    text-shadow: 3px 3px 2px black;
+}
