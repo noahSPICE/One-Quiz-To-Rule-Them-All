@@ -14,6 +14,10 @@
         <h1 class="Quiz-Title">One Quiz To Rule Them All</h1>
         <h4 class="Quiz-Subtitle">"One does not simply use js for backend programming." -Boromir</h4>
 
+        <div id="timerDisplay" style="display: none;">
+            Thou hast 75 seconds remaining!
+        </div>
+
         <div class="Start">
             <h2>Art Thou Ready to Engage?</h2>
             <h4>Presseth "ENGAGE!"</h4>
@@ -49,15 +53,20 @@
             <button class="correctAnswer question4Button">school</button>
         </div>
         <div id="scoreBox" style="display: none;">
-        <h2 id="scoreTitle" class="scoreTitle">Thou hast persevered. Scribe ye name below, champion!</h2>
-        <form action="/action_page.php">
-            <h3 id="scorePresentation">Thoust score was</h3>
-            <label for="fullName">Full name: </label>
-            <input type="text" id="fullName" name="fullName"><br><br>
-            <input type="submit" value="Scribe">
-          </form>
+            <h2 id="scoreTitle" class="scoreTitle">Thou hast persevered. Scribe ye name below, champion!</h2>
+                <h3 id="scorePresentation"></h3>
+                <label for="fullName">Full name: </label>
+                <input type="text" id="fullName" name="fullName"><br><br>
+                <button id="scribeButton">Scribe</button>
+        </div>
+        <div id="leaderBoard" style="display: none;">
+            <h2>High Scores</h2>
+                <div id="scoreTable"></div>
+            <button id="tryAgainButton">Try Again?</button>
+            <button id="closeButton">Close</button>
         </div>
     </div>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

@@ -36,7 +36,8 @@ body {
     text-shadow: 3px 3px 2px black;
 }
 
-#scoreBox {
+
+#timerDisplay, #leaderBoard, #scoreBox {
     text-align: center;
     font-weight: lighter;
     font-family: fantasy;
@@ -44,3 +45,9 @@ body {
     text-shadow: 3px 3px 2px black;
 }
 
+button {
+    background-color: #FFC30F;
+    border-radius: 6px;
+    font-family: fantasy;
+    font-weight: 30px;
+}
